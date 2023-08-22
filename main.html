@@ -1,0 +1,736 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prince Market Online - Blej si zotni, na ta bina n'shpi </title>
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <script src="https://kit.fontawesome.com/3f01538ddf.js" crossorigin="anonymous"></script>
+    <link rel="icon" type="image/png" href="./assets/img/icon.png">
+<body>
+
+<!--ALERT-->  
+<div class="alert-box">
+    <p>Blej produkte mbi 10 euro <a href="#">dhe përfito transport falas! | Minimumi i porosisë 10 euro</a> </p>
+    <button class="close-button" onclick="closeAlert()">x</button>
+  </div>
+ <script> 
+ function closeAlert() {
+    var alertBox = document.querySelector('.alert-box');
+    alertBox.style.display = 'none';}
+  </script>
+  
+<!-- HEADER -->
+<header>
+    <div class="container">
+        <a href="main.html" class="logo">
+            <img src="./assets/img/logo-2__1_.webp" alt="Prince Market Online" />
+        </a>
+        <label for="menu-toggler"><i class="fa-solid fa-bars"></i></label>
+            <input type="checkbox" class="toggle-menu" id="menu-toggler" />
+     <nav>
+            <ul>    
+                <li><div class="search-container">
+                    <form action="#">
+                      <input type="text" placeholder="Kërko Produktin" name="search"> 
+                      <button type="submit">KERKO</button>
+                    </form>
+                </div></li>
+                 <li><div class="shoping-card">
+                        <a href="#"> Lista ime  <i class="fa-solid fa-heart fa-xl " style="color: #f90b0b;"></i></a>
+                </div></li>
+                <li><div class="shoping-card">
+                        <a href="#"> SHPORTA  <i class="fa-solid fa-bag-shopping fa-xl" style="color: #000000;"></i></a>
+                </div></li>
+                <li><div class="call">
+                        <a href="#"> Na Kontaktoni <i class="fa-solid fa-phone fa-xl" style="color: #000000;"></i></a>
+                </div></li>
+                 <li><a href="#">Kategoritë <i class="fa-solid fa-chevron-down"></i></a>
+                    <ul class="kategorite-submenu">
+                        <li><a href="#KafeTurke">PRINCE CAFFE TURKE</a></li>
+                        <li><a href="#Espresso">PRINCE ESPRESSO</a></li>
+                        <li><a href="#INSTANT">PRINCE INSTANT</a></li>
+                        <li><a href="#CHOCOLATE">HOT CHOCOLATE</a></li>
+                        <li><a href="#SR">STRONG & RICH</a></li>
+                        <li><a href="#KAPSULLA">PRINCE KAPSULLA</a></li>
+                        <li><a href="#QUICK">PRINCE QUICK</a></li>
+                        <li><a href="#">MIELL <i class="fa-solid fa-chevron-down"></i></a>
+                         <ul class="kategorite-submenu1">
+                            <li><a href="#FINNESA">FINNESA</a></li>
+                            <li><a href="#DILLINO">DILLINO</a></li>
+                            <li><a href="#SOFRA">SOFRA</a></li>
+                            <li><a href="#PREMIUM">MIELL PREMIUM</a></li>
+                         </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li><a href="#">Regjistrohu</a></li>
+                <li><a href="#">Login <i class="fa-regular fa-user fa-xl" style="color: #fd0d0d;"></i></a></li>
+               
+         </ul>
+      </nav>
+    </div>
+    
+</header>
+
+<!-- MAIN -->
+<main>
+     <div class="container">
+     <div class="mainPage">
+       <img src="./assets/img/web_banner1.webp" alt="PamjaEMadhe">
+     </div>
+    </div>
+</main>
+
+<!--REKLAMAT-->
+<section id="Reklamat">
+     <div class="container">
+       <div class="Reklamat">
+         <div class="card">
+           <img src="./assets/img/Reklamat/pagesa.webp" alt="Pagesa">
+         </div>
+         <div class="card">
+            <img src="./assets/img/Reklamat/dergesa.webp" alt="Dergesa">
+          </div>
+          <div class="card">
+            <img src="./assets/img/Reklamat/cilsia.webp" alt="Cilsia">
+          </div>
+       </div>
+     </div>
+</section>
+
+<!-- KATEGORITE 1 -->
+<section id="KafeTurke">
+    <div class="container">
+        <div class="section-title">
+            <h2>Kafe Turke</h2>
+        </div>
+    <div class="lista">
+        <div class="produkti">
+            <div class="produkti-img">
+                <img src="./assets/img/KafeTurke/turke-1-300x374.jpg" alt="Kafe1">
+            </div>
+            <div class="produkti-footer">
+                <h3>Kafe Turke</h3>
+                <br><br>
+                <button class="btn btn-primary" ><a href="#"></a>SHIKO</button>
+            </div>
+        </div>
+    </div>
+</div>
+</section>
+
+<!-- KATEGORITE 2 -->
+<section id="Espresso">
+    <div class="container">
+        <div class="section-title">
+            <h2>Prince Espresso</h2>
+        </div>
+    <div class="lista1">
+        <div class="produkti">
+            <div class="produkti-img">
+                <img src="./assets/img/Espresso/espresso-premium-300x374.jpg" alt="espresso-premium">
+            </div>
+            <div class="produkti-footer">
+                <h3>Prince Premium Espresso </h3>
+                <p>€18,50</p>
+                <button class="btn btn-primary" ><a href="#"></a>SHTO NE SHPORT</button>
+            </div>
+        </div>
+        <div class="produkti">
+            <div class="produkti-img">
+                <img src="./assets/img/Espresso/espresso-gold-300x374.jpg" alt="espresso-gold">
+            </div>
+            <div class="produkti-footer">
+                <h3>Prince Instant Gold </h3>
+                <p>€16,00</p>
+                <button class="btn btn-primary" ><a href="#"></a>SHTO NE SHPORT</button>
+            </div>
+        </div>
+        <div class="produkti">
+            <div class="produkti-img">
+                <img src="./assets/img/Espresso/grand-aroma-300x374.jpg" alt="grand-aroma">
+            </div>
+            <div class="produkti-footer">
+                <h3>Grande Aroma </h3>
+                <p>€14,00</p>
+                <button class="btn btn-primary" ><a href="#"></a>SHTO NE SHPORT</button>
+            </div>
+        </div>
+        <div class="produkti">
+            <div class="produkti-img">
+                <img src="./assets/img/Espresso/espresso-millenium-300x374.jpg" alt="espresso-millenium">
+            </div>
+            <div class="produkti-footer">
+                <h3>Millenium Espresso </h3>
+                <p>7,15€</p>
+                <button class="btn btn-primary" ><a href="#"></a>SHTO NE SHPORT</button>
+            </div>
+        </div>
+    </div>
+</div>
+</section>
+
+<!-- KATEGORITE 3 -->
+<section id="INSTANT">
+    <div class="container">
+        <div class="section-title">
+            <h2>Prince Instant</h2>
+        </div>
+    <div class="lista1">
+        <div class="produkti">
+            <div class="produkti-img">
+                <img src="./assets/img/Instant/3in1-1-300x374.jpg" alt="Prince Caffe 3in1 Classic ( 24 copë)">
+            </div>
+            <div class="produkti-footer">
+                <h3>Prince Caffe 3in1 Classic ( 24 copë) </h3>
+                <p>€4,32</p>
+                <button class="btn btn-primary" ><a href="#"></a>SHTO NE SHPORT</button>
+            </div>
+        </div>
+        <div class="produkti">
+            <div class="produkti-img">
+                <img src="./assets/img/Instant/3in1mach-2-300x374.jpg" alt="Prince Machiato 3in1 (24 copë)">
+            </div>
+            <div class="produkti-footer">
+                <h3>Prince Machiato 3in1 (24 copë)</h3>
+                <p>€4,32</p>
+                <button class="btn btn-primary" ><a href="#"></a>SHTO NE SHPORT</button>
+            </div>
+        </div>
+        <div class="produkti">
+            <div class="produkti-img">
+                <img src="./assets/img/Instant/irish-2-300x374.jpg" alt="Prince Irish 3in1 ( 24 copë)">
+            </div>
+            <div class="produkti-footer">
+                <h3>Prince Irish 3in1 ( 24 copë) </h3>
+                <p>€5,04</p>
+                <button class="btn btn-primary" ><a href="#"></a>SHTO NE SHPORT</button>
+            </div>
+        </div>
+        <div class="produkti">
+            <div class="produkti-img">
+                <img src="./assets/img/Instant/2in1-1-300x374.jpg" alt="Prince Coffee & Creamer 2in1 (24 copë)">
+            </div>
+            <div class="produkti-footer">
+                <h3>Prince Coffee & Creamer 2in1 (24 copë) </h3>
+                <p>€4,32</p>
+                <button class="btn btn-primary" ><a href="#"></a>SHTO NE SHPORT</button>
+            </div>
+        </div>
+        <div class="produkti">
+            <div class="produkti-img">
+                <img src="./assets/img/Instant/hazelnut-1-300x374.jpg" alt="Prince Hazelnut 3in1 (24 copë)">
+            </div>
+            <div class="produkti-footer">
+                <h3>Prince Hazelnut 3in1 (24 copë) </h3>
+                <p>€4,32</p>
+                <button class="btn btn-primary" ><a href="#"></a>SHTO NE SHPORT</button>
+            </div>
+        </div>
+        <div class="produkti">
+            <div class="produkti-img">
+                <img src="./assets/img/Instant/vanill-2-300x374.jpg" alt="Prince Vanilla ( 8 copë )">
+            </div>
+            <div class="produkti-footer">
+                <h3>Prince Vanilla ( 8 copë ) </h3>
+                <p>€2,40</p>
+                <button class="btn btn-primary" ><a href="#"></a>SHTO NE SHPORT</button>
+            </div>
+        </div>
+        <div class="produkti">
+            <div class="produkti-img">
+                <img src="./assets/img/Instant/51-300x374.jpg" alt="PRINCE CLASSIC 3IN1 5+1 GRATIS">
+            </div>
+            <div class="produkti-footer">
+                <h3>PRINCE CLASSIC 3IN1 5+1 GRATIS</h3>
+                <p>€0,89</p>
+                <button class="btn btn-primary" ><a href="#"></a>SHTO NE SHPORT</button>
+            </div>
+        </div>
+        <div class="produkti">
+            <div class="produkti-img">
+                <img src="./assets/img/Instant/102-300x374.jpg" alt="PRINCE CLASSIC 3IN1 10+2 GRATIS">
+            </div>
+            <div class="produkti-footer">
+                <h3>PRINCE CLASSIC 3IN1 10+2 GRATIS </h3>
+                <p> €1,78 </p>
+                <button class="btn btn-primary" ><a href="#"></a>SHTO NE SHPORT</button>
+            </div>
+        </div>
+    </div>
+</div>
+</section>
+
+<!-- KATEGORITE 4 -->
+<section id="CHOCOLATE">
+    <div class="container">
+        <div class="section-title">
+            <h2>Hot Chocolate</h2>
+        </div>
+    <div class="lista1">
+        <div class="produkti">
+            <div class="produkti-img">
+                <img src="./assets/img/Chocolate/hot-chocolate-choco-1-300x374.jpg" alt="Prince Choc Hot Chocolate ( 8 copë )">
+            </div>
+            <div class="produkti-footer">
+                <h3>Prince Choc Hot Chocolate ( 8 copë ) </h3>
+                <p>€2,38</p>
+                <button class="btn btn-primary" ><a href="#"></a>SHTO NE SHPORT</button>
+            </div>
+        </div>
+        <div class="produkti">
+            <div class="produkti-img">
+                <img src="./assets/img/Chocolate/hot-chocolate-vanilla-2-300x374.jpg" alt="Prince Vanilla Hot Chocolate ( 8 copë)">
+            </div>
+            <div class="produkti-footer">
+                <h3>Prince Vanilla Hot Chocolate ( 8 copë)</h3>
+                <p>€2,38</p>
+                <button class="btn btn-primary" ><a href="#"></a>SHTO NE SHPORT</button>
+            </div>
+        </div>
+        <div class="produkti">
+            <div class="produkti-img">
+                <img src="./assets/img/Chocolate/hot-chocolate-hazelnut-1-300x374.jpg" alt="Prince Hazelnut Hot Chocolate ( 8 copë )">
+            </div>
+            <div class="produkti-footer">
+                <h3>Prince Hazelnut Hot Chocolate ( 8 copë )</h3>
+                <p>€2,38</p>
+                <button class="btn btn-primary" ><a href="#"></a>SHTO NE SHPORT</button>
+            </div>
+        </div>
+    </div>
+</div>
+</section>
+
+<!-- KATEGORITE 5 -->
+<section id="SR">
+    <div class="container">
+        <div class="section-title">
+            <h2>Strong & Rich</h2>
+        </div>
+    <div class="lista1">
+        <div class="produkti">
+            <div class="produkti-img">
+                <img src="./assets/img/SR/strong-1-3-300x374.jpg" alt="Strong & Rich">
+            </div>
+            <div class="produkti-footer">
+                <h3>Strong & Rich </h3>
+                <br><br>
+                <button class="btn btn-primary" ><a href="#"></a>SHIKO</button>
+            </div>
+        </div>
+        <div class="produkti">
+            <div class="produkti-img">
+                <img src="./assets/img/SR/strong-stick-2-300x374.jpg" alt="Prince Strong & Rhich 2 gr (48 copë)">
+            </div>
+            <div class="produkti-footer">
+                <h3>Prince Strong & Rhich 2 gr (48 copë) </h3>
+                <p>€2,40</p>
+                <button class="btn btn-primary" ><a href="#"></a>SHTO NE SHPORT</button>
+            </div>
+        </div>
+        <div class="produkti">
+            <div class="produkti-img">
+                <img src="./assets/img/SR/gold-1-300x374.jpg" alt="PRINCE INSTANT GOLD">
+            </div>
+            <div class="produkti-footer">
+                <h3>PRINCE INSTANT GOLD </h3>
+                <br><br>
+                <button class="btn btn-primary" ><a href="#"></a>SHIKO</button>
+            </div>
+        </div>
+        <div class="produkti">
+            <div class="produkti-img">
+                <img src="./assets/img/SR/coffee-cream-400-300x374.jpg" alt="Coffee Cream">
+            </div>
+            <div class="produkti-footer">
+                <h3>Coffee Cream </h3>
+                <br><br>
+                <button class="btn btn-primary" ><a href="#"></a>SHIKO</button>
+            </div>
+        </div>
+    </div>
+</div>
+</section>
+
+<!-- KATEGORITE 6 -->
+<section id="KAPSULLA">
+    <div class="container">
+        <div class="section-title">
+            <h2>Prince Kapsulla</h2>
+        </div>
+    <div class="lista1">
+        <div class="produkti">
+            <div class="produkti-img">
+                <img src="./assets/img/Kapsulla/aparati-oferte_web-300x374.png" alt="Super ofertë">
+            </div>
+            <div class="produkti-footer">
+                <h3>Super ofertë </h3>
+                <p>€79,99</p>
+                <button class="btn btn-primary" ><a href="#"></a>SHTO NE SHPORT</button>
+            </div>
+        </div>
+        <div class="produkti">
+            <div class="produkti-img">
+                <img src="./assets/img/Kapsulla/kapsul-premium-stick-300x374.png" alt="Prince Kapsulla Premium 1×10 PCS 1+1 ">
+            </div>
+            <div class="produkti-footer">
+                <h3>Prince Kapsulla Premium 1×10 PCS 1+1 </h3>
+                <p>€3,85</p>
+                <button class="btn btn-primary" ><a href="#"></a>SHTO NE SHPORT</button>
+            </div>
+        </div>
+        <div class="produkti">
+            <div class="produkti-img">
+                <img src="./assets/img/Kapsulla/kapsul-ristretto-stick-300x374.png " alt="Prince Kapsulla Ristretto 1×10 PCS 1+1">
+            </div>
+            <div class="produkti-footer">
+                <h3>Prince Kapsulla Ristretto 1×10 PCS 1+1 </h3>
+                <p>  €3,30</p>
+                <button class="btn btn-primary" ><a href="#"></a>SHTO NE SHPORT</button>
+            </div>
+        </div>
+        <div class="produkti">
+            <div class="produkti-img">
+                <img src="./assets/img/Kapsulla/Prince-Kapsulla-Espresso-1×10-PCS-11-300x374.png" alt="Prince Kapsulla Espresso 1×10 PCS 1+1">
+            </div>
+            <div class="produkti-footer">
+                <h3>Prince Kapsulla Espresso 1×10 PCS 1+1 </h3>
+                <p>€2,97</p>
+                <button class="btn btn-primary" ><a href="#"></a>SHTO NE SHPORT</button>
+            </div>
+        </div>
+        <div class="produkti">
+            <div class="produkti-img">
+                <img src="./assets/img/Kapsulla/kapsul-premium-pako-300x374.png" alt="Prince Kapsulla Premium 5×2 PCS 1+1 ">
+            </div>
+            <div class="produkti-footer">
+                <h3>Prince Kapsulla Premium 5×2 PCS 1+1 </h3>
+                <p>€3,85</p>
+                <button class="btn btn-primary" ><a href="#"></a>SHTO NE SHPORT</button>
+            </div>
+        </div>
+        <div class="produkti">
+            <div class="produkti-img">
+                <img src="./assets/img/Kapsulla/kapsul-ristretto-pako-300x374.png" alt="Prince Kapsulla Ristretto 5×2 PCS 1+1">
+            </div>
+            <div class="produkti-footer">
+                <h3>Prince Kapsulla Ristretto 5×2 PCS 1+1 </h3>
+                <p>€3,30</p>
+                <button class="btn btn-primary" ><a href="#"></a>SHTO NE SHPORT</button>
+            </div>
+        </div>
+        <div class="produkti">
+            <div class="produkti-img">
+                <img src="./assets/img/Kapsulla/kapsul-espresso-pako-300x374.png" alt="Prince Kapsulla Espresso 5×2 PCS 1+17 ">
+            </div>
+            <div class="produkti-footer">
+                <h3>Prince Kapsulla Espresso 5×2 PCS 1+17 </h3>
+                <p>€2,97</p>
+                <button class="btn btn-primary" ><a href="#"></a>SHTO NE SHPORT</button>
+            </div>
+        </div>
+        <div class="produkti">
+            <div class="produkti-img">
+                <img src="./assets/img/Kapsulla/kapsul-premium-qese-300x374.png" alt="Prince Kapsulla Premium Qese 10pcs">
+            </div>
+            <div class="produkti-footer">
+                <h3>Prince Kapsulla Premium Qese 10pcs</h3>
+                <p> €3,17</p>
+                <button class="btn btn-primary" ><a href="#"></a>SHTO NE SHPORT</button>
+            </div>
+        </div>
+        <div class="produkti">
+            <div class="produkti-img">
+                <img src="./assets/img/Kapsulla/kapsul-ristretto-qese-300x374.png" alt="Prince Kapsulla Ristretto Qese 10 PCS 1+1">
+            </div>
+            <div class="produkti-footer">
+                <h3>Prince Kapsulla Ristretto Qese 10 PCS 1+1 </h3>
+                <p> €3,08</p>
+                <button class="btn btn-primary" ><a href="#"></a>SHTO NE SHPORT</button>
+            </div>
+        </div>
+        <div class="produkti">
+            <div class="produkti-img">
+                <img src="./assets/img/Kapsulla/kapsul-espresso-qese-300x374.png" alt="Prince Kapsulla Espresso Qese 10 PCS 1+1">
+            </div>
+            <div class="produkti-footer">
+                <h3>Prince Kapsulla Espresso Qese 10 PCS 1+1</h3>
+                <p> €2,75</p>
+                <button class="btn btn-primary" ><a href="#"></a>SHTO NE SHPORT</button>
+            </div>
+        </div>
+    </div>
+</div>
+</section>
+
+<!--KATEGORIA 7-->
+<section id="QUICK">
+    <div class="container">
+        <div class="section-title">
+            <h2>Prince Quick</h2>
+        </div>
+    <div class="lista1">
+        <div class="produkti">
+            <div class="produkti-img">
+                <img src="./assets/img/Quick/quixk-1-300x374.jpg" alt="Prince Quick">
+            </div>
+            <div class="produkti-footer">
+                <h3>Prince Quicko </h3>
+                <br><br>
+                <button class="btn btn-primary" ><a href="#"></a>SHIKO</button>
+            </div>
+        </div>
+        <div class="produkti">
+            <div class="produkti-img">
+                <img src="./assets/img/Quick/quick-stick-1-300x374.jpg" alt="Prince Quick Stick 14gr ( 24 copë )">
+            </div>
+            <div class="produkti-footer">
+                <h3>Prince Quick Stick 14gr ( 24 copë ) </h3>
+                <p>€4,32</p>
+                <button class="btn btn-primary" ><a href="#"></a>SHTO NE SHPORT</button>
+            </div>
+        </div>
+    </div>
+</div>
+</section>
+
+<!--KATEGORIA 8-->
+<section id="FINNESA">
+    <div class="container">
+        <div class="section-title">
+            <h2>Finnesa</h2>
+        </div>
+    <div class="lista1">
+        <div class="produkti">
+            <div class="produkti-img">
+                <img src="./assets/img/Finnesa/tip-400-25-kg-2-300x374.jpg" alt="Finesa Tip – 400">
+            </div>
+            <div class="produkti-footer">
+                <h3>Finesa Tip – 400 </h3>
+                <br><br>
+                <button class="btn btn-primary" ><a href="#"></a>SHIKO</button>
+            </div>
+        </div>
+        <div class="produkti">
+            <div class="produkti-img">
+                <img src="./assets/img/Finnesa/finnesa-tip-1000-300x374.jpg" alt="Finnesa Tip-1000 25 KG">
+            </div>
+            <div class="produkti-footer">
+                <h3>Finnesa Tip-1000 25 KG </h3>
+                <p>€16,72 </p>
+                <button class="btn btn-primary" ><a href="#"></a>SHTO NE SHPORT</button>
+            </div>
+        </div>
+        <div class="produkti">
+            <div class="produkti-img">
+                <img src="./assets/img/Finnesa/finnesa-tip-500-300x374.jpg" alt="Finnesa Tip-500 25 KG">
+            </div>
+            <div class="produkti-footer">
+                <h3>Finnesa Tip-500 25 KG </h3>
+                <p>€16,53</p>
+                <button class="btn btn-primary" ><a href="#"></a>SHTO NE SHPORT</button>
+            </div>
+        </div>
+        <div class="produkti">
+            <div class="produkti-img">
+                <img src="./assets/img/Finnesa/finnesa-integral-300x374.jpg" alt="Finnesa Tip Integral">
+            </div>
+            <div class="produkti-footer">
+                <h3>Finnesa Tip Integral </h3>
+                <br><br>
+                <button class="btn btn-primary" ><a href="#"></a>SHIKO</button>
+            </div>
+        </div>
+        <div class="produkti">
+            <div class="produkti-img">
+                <img src="./assets/img/Finnesa/finnesa-tip-special-300x374.jpg" alt="Finnesa Premium 24 KG">
+            </div>
+            <div class="produkti-footer">
+                <h3>Finnesa Premium 24 KG</h3>
+                <p>€19,39</p>
+                <button class="btn btn-primary" ><a href="#"></a>SHTO NE SHPORT</button>
+            </div>
+        </div>
+    </div>
+</div>
+</section>
+
+<!--KATEGORIA 9-->
+<section id="DILLINO">
+    <div class="container">
+        <div class="section-title">
+            <h2>Dellino</h2>
+        </div>
+    <div class="lista1">
+        <div class="produkti">
+            <div class="produkti-img">
+                <img src="./assets/img/Dellino/dellino-premium-300x374.jpg" alt="Dellino Premium 24 KG">
+            </div>
+            <div class="produkti-footer">
+                <h3>Dellino Premium 24 KG </h3>
+                <p>€17,33</p>
+                <button class="btn btn-primary" ><a href="#"></a>SHTO NE SHPORT</button>
+            </div>
+        </div>
+        <div class="produkti">
+            <div class="produkti-img">
+                <img src="./assets/img/Dellino/dellino-tip-400-300x374.jpg" alt="Dellino Tip-400">
+            </div>
+            <div class="produkti-footer">
+                <h3>Dellino Tip-400 </h3>
+                <br><br>
+                <button class="btn btn-primary" ><a href="#"></a>SHIKO</button>
+            </div>
+        </div>
+        <div class="produkti">
+            <div class="produkti-img">
+                <img src="./assets/img/Dellino/dellino-tip-500-300x374.jpg" alt="Dellino Tip-500 25 KG ">
+            </div>
+            <div class="produkti-footer">
+                <h3>Dellino Tip-500 25 KG </h3>
+                <p>€16,26 </p>
+                <button class="btn btn-primary" ><a href="#"></a>SHTO NE SHPORT</button>
+            </div>
+        </div>
+    </div>
+</div>
+</section>
+
+<!--KATEGORIA 10-->
+<section id="SOFRA">
+    <div class="container">
+        <div class="section-title">
+            <h2>Sofra</h2>
+        </div>
+    <div class="lista1">
+        <div class="produkti">
+            <div class="produkti-img">
+                <img src="./assets/img/Sofra/sofra-300x374.jpg" alt="Sofra Tip-400 25KG">
+            </div>
+            <div class="produkti-footer">
+                <h3>Sofra Tip-400 25KG </h3>
+                <p> €16,21</p>
+                <button class="btn btn-primary" ><a href="#"></a>SHTO NE SHPORT</button>
+            </div>
+        </div>
+        <div class="produkti">
+            <div class="produkti-img">
+                <img src="./assets/img/Sofra/sofra-kaltert-300x374.jpg" alt="Sofra Tip-500 25KG">
+            </div>
+            <div class="produkti-footer">
+                <h3>Sofra Tip-500 25KG </h3>
+                <p>€15,46</p>
+                <button class="btn btn-primary" ><a href="#"></a>SHTO NE SHPORT</button>
+            </div>
+        </div>
+    </div>
+</div>
+</section>
+
+<!--KATEGORIA 11-->
+<section id="PREMIUM">
+    <div class="container">
+        <div class="section-title">
+            <h2>Miell premium</h2>
+        </div>
+    <div class="lista1">
+        <div class="produkti">
+            <div class="produkti-img">
+                <img src="./assets/img/Premium/muhlefellner-300x374.jpg" alt="Muhlefellner Tip-400">
+            </div>
+            <div class="produkti-footer">
+                <h3>Muhlefellner Tip-400</h3>
+                <br><br>
+                <button class="btn btn-primary" ><a href="#"></a>SHIKO</button>
+            </div>
+        </div>
+        <div class="produkti">
+            <div class="produkti-img">
+                <img src="./assets/img/Premium/mulino-di-grano-300x374.jpg" alt="Mulino Di Grano Tip 24KG">
+            </div>
+            <div class="produkti-footer">
+                <h3>Mulino Di Grano Tip 24KG </h3>
+                <p> €19,41€</p>
+                <button class="btn btn-primary" ><a href="#"></a>SHTO NE SHPORT</button>
+            </div>
+        </div>
+    </div>
+</div>
+</section>
+
+<!--INFO-->
+<section id="info">
+    <div class="container">
+        <div class="info">
+            <div class="info-img" >
+                <img style="width:60px ;" src="./assets/img/info/24-hours-delivery-svgrepo-com.svg" alt="info">
+            </div>
+            <div class="info-footer">
+                <h3>Brenda 24H </h3>
+            </div>
+        </div>
+        <div class="info">
+            <div class="info-img">
+                <img src="./assets/img/info/download.png" alt="info">
+            </div>
+            <div class="info-footer">
+                <h3>Ne tere KOSOVEN </h3>
+            </div>
+        </div>
+        <div class="info">
+            <div class="info-img">
+                <img src="./assets/img/info/Pagesa te sigurta.png" alt="info">
+            </div>
+            <div class="info-footer">
+                <h3>Pagesa të sigurta </h3>
+            </div>
+        </div>
+        <div class="info">
+            <div class="info-img">
+                <img src="./assets/img/info/Ndihme teknike.png" alt="info">
+            </div>
+            <div class="info-footer">
+                <h3>Ndihme teknike </h3>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+     <div class="container">
+       <div>
+           <img src="./assets/img/logo_princecaffe_white.webp" alt="Prince Market Online">
+       </div>
+       <div>
+           <h3>SHËRBIMI PËR KLIENTË</h3>
+            <ul>
+               <li><a href="#">Kushtet e përdorimit</a></li>
+               <li><a href="#">Politika e privatësisë</a></li>
+            </ul>
+        </div>
+        <div>
+            <h3>LLOGARIA IME</h3>
+            <ul>
+                <li><a href="#">Produktet e pëlqyera</a></li>
+                <li><a href="#">Shporta</a></li>
+            </ul>
+        </div>
+        <div>
+            <h3>PËRKRAHJE TEKNIKE</h3>
+            <ul>
+                <li><h4>Thirr pa pagesë : 0800 18000 </h4></li>
+                <li><h4>info@princemarketonline.com</h4></li>
+        </div>
+     
+   </div>
+</footer>
+
+<div class="fundi">
+    <p>Web Faqe e Gatuar me <span><i class="fa-solid fa-heart fa-lg" style="color: #f00a0a;"></i></span>nga Prince Caffe</p>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,86 @@
+@media screen and (max-width: 765px) {
+    .container {
+        width: 95%;
+        margin: 0 auto;
+    }
+    .section-title{
+        font-size:1em;
+    }
+    .section-title::after{
+        width: 100px;
+    }
+    .Reklamat,
+    .lista,
+    .lista1{
+        grid-template-columns: 1fr;
+    }
+    /* butoni i nav*/
+    label i {
+        font-size: 1.5em;
+        color: var(--black);
+    }
+    input[type="checkbox"] {
+        display: none;
+    }
+    input[type="text"] {
+       display: inline;
+       width: 220px;
+    }
+    label,
+    input {
+        display: block;
+    }
+    
+    .toggle-menu:checked+nav {
+        display: block;
+    }
+
+    .toggle-menu:not(:checked)~nav {
+        display: none;
+    }
+    nav {
+        display: none;
+        background-color: var(--background);
+        position: absolute;
+        top: 100px;
+        left: 0px;
+    }
+    nav,
+    nav ul {
+        width: 100%;
+        padding-left: 10px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        background-color: rgb(179, 176, 176);
+    }
+ 
+    nav ul li {
+        display: block;
+    }
+
+    main .container {
+        display: none;
+    
+    }
+    .card img{
+        width:320px;
+        height: 200px;
+    }
+
+    #info .container{
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    footer .container{
+        display: flex;
+        flex-direction: column;
+    }
+    footer div{
+        gap:20px;
+    }
+    section, footer{
+        padding: 25px 0px;
+    }
+}

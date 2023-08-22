@@ -1,0 +1,38 @@
+:root {
+  --red: #990100;
+  --light-red: #bf0e0e;
+  --black: #000000;
+  --background: #ffffff;
+  --bg-light: #F8F8F8;
+  --orange:#fc6702;
+}
+
+@font-face {
+  font-family: 'Roboto', sans-serif;
+  src: url('../fonts/Roboto-Black.ttf');
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    color: var(--black);
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+section,
+footer {
+    padding: 80px 0px;
+}
+
+.bg-light {
+    background-color: var(--bg-light);
+}
